@@ -1,14 +1,11 @@
 # Write your #display_rainbow method here
 def display_rainbow
-color= ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet']
+color= ['R: red, O: orange, Y: yellow, G: green, B: blue, I: indigo, V: violet']
 
 
-puts "#{color[0]}"
-puts "#{color[1]}"
-puts "#{color[2]}"
-puts "#{color[3]}"
-puts "#{color[4]}"
-puts "#{color[5]}"
-puts "#{color[6]}"
-puts "#{color[7]}"
+puts "color=,#{color[0]},#{color[1]},#{color[2]},#{color[3]},#{color[4]},
+#{color[5]},#{color[6]},#{color[7]}"
+
+
+
 end
